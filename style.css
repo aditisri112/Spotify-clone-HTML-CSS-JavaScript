@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+   margin: 0;
+   padding: 0; 
+   font-family: "Martel Sans", sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white; 
+    scrollbar-width: thin;
+    scrollbar-color: #444 #111; 
+}
+
+.left{
+    padding: 5px;
+    width: 25vw;
+}
+
+.right{
+    width: 80vw;
+
+}
+
+.home ul li{
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+    width: 14px;
+    list-style: none;
+    padding-top:14px;
+}
+
+.home ul li span{
+    position: relative;
+    top: 3px;
+}
+
+.logo span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: -10px;
+}
+
+.library{
+    position: relative;
+    min-height: 75vh;
+}
+
+.heading span{
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding-top:14px;
+    align-items: center;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    flex-wrap: wrap;
+    display: flex;
+    font-size: 10px;
+    color: gray;
+    gap: 16px;
+    padding: 10px;
+
+}
+
+.footer a{
+    color: gray;
+    
+}
+
+.right{
+    position: relative;   
+    max-height: 94vh;
+    overflow: scroll;
+    margin: 14px 0;
+}
+
+.header{
+    background-color: rgb(32, 30, 30);
+    border-radius: 5px;
+    display:flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.header> *{
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.spotifyPlaylists{
+    padding: 14px;
+}
+
+.spotifyPlaylists h1{
+    font-weight: bolder;
+    font-size: 22px
+}
+
+.card-container{
+    overflow-y: scroll;
+    max-height: 75vh;
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    width:200px; 
+    background-color: rgb(32, 30, 30);   
+}
+
+.play{
+    position: absolute;
+    top: 273px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: #1DB954;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.play svg{
+    width: 30px;
+    height: 30px;
+    fill: black;
+    stroke: black;
+    stroke-width: 1.5;
+    stroke-linejoin: round;
+}
+
+.card> *{
+    padding-top: 3px;
+}
+
+.card img{
+    border-radius: 8px;
+    width:100%;
+    object-fit: contain;
+}
+
+.signupbtn{
+    font-size: 15px;
+    background-color: rgb(32, 30, 30);
+    color: rgb(94, 92, 92);
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.buttons> *{
+    margin: 0 12px;
+
+}
+
+.signupbtn:hover{
+    cursor: pointer;
+    font-size: 1rem;
+    color:white;
+}
+
+.loginbtn{
+    background-color: white;
+    border-radius: 21px;
+    color: black;
+    font-weight: 600;
+    padding:7px;
+    font-size: 15px;
+    width: 79px;
+    border: none;
+    cursor: pointer;
+}
+
+.loginbtn:hover{
+    font-weight: bold;
+    font-size: 1rem;   
+}
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: #1DB954;
+    width: 100%;
+    padding: 12px;  
+    display: flex;
+    justify-content: center;
+    gap: 12px; 
+    padding-bottom: 1px;
+}
+
+.songbuttons{
+}
+
+
+
